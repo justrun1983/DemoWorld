@@ -9,8 +9,8 @@ namespace SendGridDemo
     {
         private static void Main(string[] args)
         {
-            //WebApiLib.SendNormalHelloWorldEmail();
-            //WebApiLib.SendEmailWithAttachement();
+            WebApiLib.SendNormalHelloWorldEmail();
+            WebApiLib.SendEmailWithAttachement();
             WebApiRestSharp.SendNormalHelloWorldEmail();
         }
     }
